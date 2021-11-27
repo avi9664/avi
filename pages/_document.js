@@ -10,7 +10,32 @@ export default class extends Document {
   render() {
     return (
       <Html lang="en-US">
-        <Head />
+        <Head>
+        <link
+            rel="preload"
+            href="/fonts/cabinet_grotesk/CabinetGrotesk-Medium.otf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/cabinet_grotesk/CabinetGrotesk-Bold.otf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/lora/Lora-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/lora/Lora-Italic.ttf"
+            as="font"
+            crossOrigin=""
+          />
+        </Head>
         <body>
           <InitializeColorMode />
           <Main />

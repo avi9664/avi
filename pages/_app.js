@@ -5,6 +5,7 @@ import Meta from '../components/meta'
 import ColorSwitcher from '../components/color-switcher'
 import theme from '../lib/theme'
 import { ThemeProvider } from 'theme-ui'
+import '../lib/global.css'
 
 const App = ({ Component, pageProps }) => {
   return (
