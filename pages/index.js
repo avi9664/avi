@@ -65,7 +65,7 @@ const About = () => (
           <BigLink text="etcetera" loc="#etcetera" />
         </Box>
         <Divider id="engineer" src="/images/arrow2.svg" />
-        <HalfMoon src="/images/coast.svg" align="left" />
+        <HalfMoon src="/images/coast.png" align="left" />
         <HalfText align="left" heading="sustainably seeking.">
           <Text>
             My hometown is in a biodiversity hotspot, so I grew up learning
@@ -101,9 +101,9 @@ const About = () => (
             on the run or a sapphic pirate in love with a mermaid.
           </Text>
         </HalfText>
-        <HalfMoon src="/images/hk.svg" align="right" />
+        <HalfMoon src="/images/hk.png" align="right" />
         <Divider id="etcetera" src="/images/clouds.svg" />
-        <HalfMoon src="/images/closet.svg" align="left" />
+        <HalfMoon src="/images/closet.png" align="left" />
         <HalfText align="left" heading="happily hobbying.">
           <Text>
             Besides writing and sciencing, I regularly drive my human-powered
