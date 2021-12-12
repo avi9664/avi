@@ -1,7 +1,7 @@
 {
-  "name": "@lachlanjc/theme-starter",
+  "name": "@avi9664/avi",
   "version": "0.0.1",
-  "author": "Lachlan Campbell (https://lachlanjc.com) <lachlanjc@hey.com>",
+  "author": "Avi Wong; template made by Lachlan Campbell (https://lachlanjc.com) <lachlanjc@hey.com>",
   "license": "MIT",
   "private": true,
   "scripts": {

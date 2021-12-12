@@ -1,0 +1,13 @@
+<svg width="229" height="32" viewBox="0 0 229 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle r="4.5" transform="matrix(1 0 0 -1 5.5 26.5)" stroke="black" stroke-width="2"/>
+<path d="M98 24.5C98 22.0948 95.8451 20 93 20C90.1549 20 88 22.0948 88 24.5C88 26.9052 90.1549 29 93 29C95.8451 29 98 26.9052 98 24.5Z" fill="black" stroke="black" stroke-width="2"/>
+<circle r="4.5" transform="matrix(1 0 0 -1 177.5 24.5)" fill="black" stroke="black" stroke-width="2"/>
+<circle r="4.5" transform="matrix(1 0 0 -1 50.5 5.5)" fill="black" stroke="black" stroke-width="2"/>
+<circle r="4.5" transform="matrix(1 0 0 -1 135.5 5.5)" fill="black" stroke="black" stroke-width="2"/>
+<circle r="4.5" transform="matrix(1 0 0 -1 223.5 5.5)" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="46.219" y2="-1" transform="matrix(0.913614 -0.406582 -0.406582 -0.913614 8.54327 24.473)" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="46.219" y2="-1" transform="matrix(0.913614 -0.406582 -0.406582 -0.913614 92.996 24.473)" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="46.219" y2="-1" transform="matrix(0.913614 -0.406582 -0.406582 -0.913614 177.448 24.473)" stroke="black" stroke-width="2"/>
+<line x1="92.5894" y1="25.3866" x2="50.3631" y2="6.59483" stroke="black" stroke-width="2"/>
+<line x1="177.042" y1="25.3866" x2="134.815" y2="6.59483" stroke="black" stroke-width="2"/>
+</svg>

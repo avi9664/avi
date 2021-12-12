@@ -7,11 +7,11 @@ const BigLink = props => {
       <Link href={loc}>
         <Heading sx={{
             color: 'background',
-            fontSize: [7],
+            fontSize: [6, 6, 7],
             WebkitTextStrokeColor: (theme) => `${theme.colors.text}`,
-            WebkitTextStrokeWidth: '1.2px',
+            WebkitTextStrokeWidth: ['1.2px', '1.2px', '2px'],
             textAlign: text =="writer" ? ['right', 'right', 'left'] : 'left',
-            lineHeight: '1.5',
+            lineHeight: '1.3',
         }} variant="ultratitle">{text}</Heading>
       </Link>
     </>
