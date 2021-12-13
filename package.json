@@ -1,7 +1,7 @@
 {
-  "name": "@lachlanjc/theme-starter",
+  "name": "@avi9664/avi",
   "version": "0.0.1",
-  "author": "Lachlan Campbell (https://lachlanjc.com) <lachlanjc@hey.com>",
+  "author": "Avi Wong; template made by Lachlan Campbell (https://lachlanjc.com) <lachlanjc@hey.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^12.0.7",
-    "next": "^12.0.4",
+    "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "theme-ui": "^0.12.1"
