@@ -34,15 +34,12 @@ const About = () => (
             alignContent: 'center',
           }}
         >
-          <Box
+          <Image
             sx={{
               ml: 'auto',
               mr: ['auto', 'auto', 0],
-              width: '144px',
-              height: '144px',
-              borderRadius: '100%',
-              backgroundColor: 'text',
             }}
+            src="/images/pfp.png"
           />
           <Heading variant="ultratitle">avi wong</Heading>
           <Text>
