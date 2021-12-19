@@ -13,7 +13,13 @@ export default class extends Document {
         <Head>
           <link
             rel="preload"
-            href="/fonts/cabinet_grotesk/CabinetGrotesk-Bold.otf"
+            href="/fonts/cabinet_grotesk/CabinetGrotesk-Bold.woff2"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/cabinet_grotesk/CabinetGrotesk-Regular.woff2"
             as="font"
             crossOrigin=""
           />

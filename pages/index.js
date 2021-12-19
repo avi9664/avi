@@ -4,6 +4,10 @@ import HalfMoon from '../components/halfmoon'
 import HalfText from '../components/halftext'
 import Divider from '../components/divider'
 
+function random(array) {
+  return array[Math.floor(Math.random() * array.length)]
+}
+
 const About = () => (
   <>
     <Container
@@ -18,9 +22,9 @@ const About = () => (
     >
       <Grid
         gap={theme => [
-          `${theme.space[6]}px ${theme.space[4]}px`,
-          `${theme.space[7]}px ${theme.space[4]}px`,
-          `${theme.space[7]}px ${theme.space[5]}px`,
+          `${theme.space[4]}px ${theme.space[4]}px`,
+          `${theme.space[5]}px ${theme.space[4]}px`,
+          `${theme.space[5]}px ${theme.space[5]}px`,
         ]}
         columns={[1, 1, 2]}
         sx={{ mx: 'auto' }}
@@ -34,15 +38,23 @@ const About = () => (
             alignContent: 'center',
           }}
         >
-          <Image
+          <Box
             sx={{
               ml: 'auto',
               mr: ['auto', 'auto', 0],
+              width: '144px',
+              height: '144px',
+              boxShadow: theme => {
+                let stop = Math.random() * 50 + 10
+                return ` inset 0px 0px 0px ${stop}px ${theme.colors.text}`
+              },
+              transition: 'box-shadow 0.15s',
+              borderRadius: '100%',
             }}
             src="/images/pfp.png"
           />
           <Heading variant="ultratitle">avi wong</Heading>
-          <Text>
+          <Text sx={{ mt: 1 }}>
             interdisciplinary student
             <br /> sf → pittsburgh
             <br /> carnegie mellon ‘25
@@ -61,9 +73,25 @@ const About = () => (
           <BigLink text="writer" loc="#writer" />
           <BigLink text="etcetera" loc="#etcetera" />
         </Box>
-        <Divider id="engineer" src="/images/arrow2.svg" />
-        <HalfMoon src="/images/coast.png" align="left" />
-        <HalfText align="left" heading="sustainably seeking.">
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+        ></Box>
+        <Divider w="105px" h="57px" src="/images/arrow2.svg" />
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+          id="engineer"
+        ></Box>
+        <HalfMoon src="/images/microscope.svg" align="left" />
+        <HalfText
+          align="left"
+          heading="sustainably seeking."
+        >
           <Text>
             My hometown is in a biodiversity hotspot, so I grew up learning
             about endangered butterflies, cleaning up our lagoon, and caring for
@@ -80,27 +108,55 @@ const About = () => (
             dabbled a tiny bit in machine learning.
           </Text>
         </HalfText>
-        <Divider id="writer" src="/images/backbone.svg" />
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+        ></Box>
+        <Divider w="229px" h="32px" src="/images/backbone.svg" />
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+          id="writer"
+        ></Box>
         <HalfText align="right" heading="dreamily drafting.">
           <Text>
             I’m also a Cantonese-American writer from the Bay Area who grew up
-            on a mix of Chinese kung fu TV dramas, strong blends of black tea
-            (both hot and cold), high doses of cosmic gay radiation, and Hong
-            Kong egg waffles.
+            on a blend of kung fu TV dramas, historical & fantasy YA novels,
+            high doses of cosmic queer radiation, and crispy Hong Kong egg
+            waffles.
             <br />
             <br />
-            I didn't have many queer Asian role models growing up, and so I
-            feared that being queer and Chinese were contradictory qualities.
+            Although I grew up in a supportive community, I had no queer Asian
+            role models, so I feared that being queer and being Chinese were
+            mutually exclusive.
             <br />
             <br />
-            Now, I’m trying to fill that hole with complex queer characters of
-            color for other readers to relate to, like a nonbinary ex-detective
-            on the run or a sapphic pirate in love with a mermaid.
+            Now, I craft stories about complex queer characters of color for
+            other readers to relate to, like a cheeky nonbinary detective with
+            questionable loyalties and a sapphic warrior leading a band of
+            demonhunters.
           </Text>
         </HalfText>
-        <HalfMoon src="/images/hk.png" align="right" />
-        <Divider id="etcetera" src="/images/clouds.svg" />
-        <HalfMoon src="/images/closet.png" align="left" />
+        <HalfMoon src="/images/quill.svg" align="right" />
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+        ></Box>
+        <Divider w="314px" h="73px" src="/images/clouds.svg" />
+        <Box
+          sx={{
+            height: theme => `${theme.space[5]}px`,
+            gridColumn: ['', '', '1 / 3'],
+          }}
+          id="etcetera"
+        ></Box>
+        <HalfMoon src="/images/piano.svg" align="left" />
         <HalfText align="left" heading="happily hobbying.">
           <Text>
             Besides writing and sciencing, I regularly drive my human-powered
@@ -115,7 +171,16 @@ const About = () => (
             <br />
             <br />
             Outside of all these commitments, I doodle, play the piano, listen
-            to Unknown Mortal Orchestra, and feed my addiction to black tea.
+            to{' '}
+            {random([
+              'Unknown Mortal Orchestra',
+              'Khruangbin',
+              'HYUKOH',
+              'Flying Lotus',
+              'ADG7',
+              'SE SO NEON',
+            ])}
+            , and feed my addiction to black tea.
           </Text>
         </HalfText>
         <Box
@@ -128,9 +193,10 @@ const About = () => (
             width: ['75%', '50%'],
           }}
         >
-          <hr style={{width: '50%', marginBottom: '40px'}}/>
+          <hr style={{ width: '50%', marginBottom: '40px' }} />
           <Text>
-            Fonts are Cabinet Grotesk (heading) & Lora (body). Designed by me on Figma & Next.js in 2021.
+            Fonts are Cabinet Grotesk (heading) & Lora (body). Designed by me on
+            Figma & Next.js in 2021.
           </Text>
         </Box>
       </Grid>

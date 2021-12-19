@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+@media (prefers-reduced-motion) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 @font-face {
     font-family: "Lora";
     src: url("/fonts/lora/Lora-Regular.ttf");
@@ -7,7 +18,14 @@
 }
 @font-face {
     font-family: "Cabinet Grotesk";
-    src: url("/fonts/cabinet_grotesk/CabinetGrotesk-Bold.otf");
+    src: url("/fonts/cabinet_grotesk/CabinetGrotesk-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cabinet Grotesk";
+    src: url("/fonts/cabinet_grotesk/CabinetGrotesk-Bold.woff2");
     font-style: bold;
     font-weight: 700;
     font-display: swap;
