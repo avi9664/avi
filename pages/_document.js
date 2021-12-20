@@ -23,12 +23,6 @@ export default class extends Document {
             as="font"
             crossOrigin=""
           />
-          <link
-            rel="preload"
-            href="/fonts/lora/Lora-Regular.ttf"
-            as="font"
-            crossOrigin=""
-          />
         </Head>
         <body>
           <InitializeColorMode />
