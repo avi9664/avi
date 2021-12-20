@@ -195,7 +195,7 @@ const About = () => (
         >
           <hr style={{ width: '50%', marginBottom: '40px' }} />
           <Text>
-            Fonts are Cabinet Grotesk (heading) & Lora (body). Designed by me on
+            Fonts are Cabinet Grotesk (heading) & Lora (body). Icons from icons8.com. Designed by me on
             Figma & Next.js in 2021.
           </Text>
         </Box>
