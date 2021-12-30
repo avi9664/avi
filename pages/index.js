@@ -56,7 +56,7 @@ const About = () => (
           <Heading variant="ultratitle">avi wong</Heading>
           <Text sx={{ mt: 1 }}>
             interdisciplinary student
-            <br /> sf → pittsburgh
+            <br /> sf → pittsburgh | they/them
             <br /> carnegie mellon ‘25
             <br /> awong8 [at] cmu [dot] edu
           </Text>

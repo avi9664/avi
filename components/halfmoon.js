@@ -22,7 +22,7 @@ const HalfMoon = props => {
       >
         <Box
           sx={{
-            backgroundColor: 'text',
+            backgroundColor: 'primary',
             ml: align == 'left' ? 'auto' : 0,
             mr: align == 'right' ? 'auto' : 0,
             overflow: 'hidden',

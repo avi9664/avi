@@ -17,7 +17,7 @@ const HalfText = props => {
           sx={{
             lineHeight: '1.1',
             textAlign: ['left', 'left', align == 'left' ? 'left' : 'right'],
-            color: 'primary'
+            color: 'text'
           }}
           variant="subtitle"
         >
