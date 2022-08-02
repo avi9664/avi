@@ -23,3 +23,19 @@ html {
     font-weight: 700;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Lora";
+    src: url("/fonts/lora/Lora-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lora";
+    src: url("/fonts/lora/Lora-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}

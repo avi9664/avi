@@ -56,7 +56,7 @@ const About = () => (
           <Heading variant="ultratitle">avi wong</Heading>
           <Text sx={{ mt: 1 }}>
             interdisciplinary student
-            <br /> sf → pittsburgh | they/them
+            <br /> sf → pittsburgh | they/he
             <br /> carnegie mellon ‘25
             <br /> awong8 [at] cmu [dot] edu
           </Text>
@@ -88,10 +88,7 @@ const About = () => (
           id="engineer"
         ></Box>
         <HalfMoon src="/images/microscope.svg" align="left" />
-        <HalfText
-          align="left"
-          heading="sustainably seeking."
-        >
+        <HalfText align="left" heading="sustainably seeking.">
           <Text>
             My hometown is in a biodiversity hotspot, so I grew up learning
             about endangered butterflies, cleaning up our lagoon, and caring for
@@ -126,19 +123,15 @@ const About = () => (
           <Text>
             I’m also a Cantonese-American writer from the Bay Area who grew up
             on a blend of kung fu TV dramas, historical & fantasy YA novels,
-            high doses of cosmic queer radiation, and crispy Hong Kong egg
+            high doses of cosmic gay radiation, and crispy Hong Kong egg
             waffles.
             <br />
             <br />
-            Although I grew up in a supportive community, I had no queer Asian
-            role models, so I feared that being queer and being Chinese were
-            mutually exclusive.
-            <br />
-            <br />
-            Now, I craft stories about complex queer characters of color for
-            other readers to relate to, like a cheeky nonbinary detective with
-            questionable loyalties and a sapphic warrior leading a band of
-            demonhunters.
+            Currently, I write scenes for New Works Coffeehouse, CMU's student
+            theatre! My first scene, "Paw Paw", was about Asian grandmas and a
+            sapphic Chinese-American trying to find a compromise between love
+            and family. In my free time, I write a bit of fanfiction and short
+            stories.
           </Text>
         </HalfText>
         <HalfMoon src="/images/quill.svg" align="right" />
@@ -163,11 +156,11 @@ const About = () => (
             buggy around Schenley Park on practice rolls with my team, Spirit
             Racing Systems.
             <br />
-            <br />
-            I am also involved with CMU’s student-run theatre troupe,
-            Scotch’n’Soda Theatre; I played the synth for their recent
-            production of Rocky Horror and am currently their props tech area
-            co-head.
+            <br />I am also involved with CMU’s student-run theatre troupe,
+            Scotch’n’Soda Theatre; I played the synth for their October 2021
+            production of <i>Rocky Horror</i>, was an assistant sound engineer
+            for their February 2021 production of Sarah Ruhl's <i>Eurydice,</i>{' '}
+            and am currently their props tech area co-head.
             <br />
             <br />
             Outside of all these commitments, I doodle, play the piano, listen
@@ -175,9 +168,10 @@ const About = () => (
             {random([
               'Unknown Mortal Orchestra',
               'Khruangbin',
-              'HYUKOH',
               'Flying Lotus',
-              'ADG7',
+              'black midi',
+              'Kali Uchis',
+              'Daemonia Nymphe',
               'SE SO NEON',
             ])}
             , and feed my addiction to black tea.
@@ -195,8 +189,8 @@ const About = () => (
         >
           <hr style={{ width: '50%', marginBottom: '40px' }} />
           <Text>
-            Fonts are Cabinet Grotesk (heading) & Lora (body). Icons from icons8.com. Designed by me on
-            Figma & Next.js in 2021.
+            Fonts are Cabinet Grotesk (heading) & Lora (body). Icons from
+            icons8.com. Designed by me on Figma & Next.js in 2021.
           </Text>
         </Box>
       </Grid>
