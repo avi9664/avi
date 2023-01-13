@@ -1,0 +1,43 @@
+import { Link, Heading } from 'theme-ui'
+const Description = props => {
+  const { title, date, links } = props
+  return links != null ? (
+    <>
+      <br />
+      <br />
+      <Heading>{title.toLowerCase()}</Heading>
+      <i>{date + '\n'}</i>
+      {props.children}
+      <br />
+      {links.map((info, index) => {
+        let text = info[0]
+        let href = info[1]
+        let download
+        console.log(info.length)
+        if (info.length === 3) {
+          let download = info[2]
+        }
+        let link =
+          download != null ? (
+            <Link href={href} download={download}>
+              {text}
+            </Link>
+          ) : (
+            <Link href={href}>{text}</Link>
+          )
+        let lastIndex = links.length
+        return index == lastIndex - 1 ? link : <>{link}, </>
+      })}
+    </>
+  ) : (
+    <>
+      <br />
+      <br />
+      <Heading>{title.toLowerCase()}</Heading>
+      <i>{date}</i>
+      {props.children}
+    </>
+  )
+}
+
+export default Description

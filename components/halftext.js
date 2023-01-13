@@ -1,23 +1,22 @@
-import { Box, Heading, Text } from 'theme-ui'
+import { Box, Heading, Text, Container } from 'theme-ui'
 
 const HalfText = props => {
   const { heading, align } = props
   return (
-    <>
+    <Container sx={{ gridColumn: ['', '', '1 / 3'] }}>
       <Box
         sx={{
-          width: 'auto',
           display: 'block',
-          justifySelf: ['center', 'center', align == 'left' ? 'start' : 'end'],
-          textAlign: ['left', 'left', align == 'left' ? 'left' : 'right'],
-          maxWidth: '35ch',
+          mx: 'auto',
+          justifySelf: 'center',
+          maxWidth: ['35ch', '60ch'],
         }}
       >
         <Heading
           sx={{
             lineHeight: '1.1',
-            textAlign: ['left', 'left', align == 'left' ? 'left' : 'right'],
-            color: 'text'
+            textAlign: 'center',
+            color: 'text',
           }}
           variant="subtitle"
         >
@@ -25,7 +24,7 @@ const HalfText = props => {
         </Heading>
         {props.children}
       </Box>
-    </>
+    </Container>
   )
 }
 
