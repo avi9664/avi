@@ -6,7 +6,8 @@ const Description = props => {
       <br />
       <br />
       <Heading>{title.toLowerCase()}</Heading>
-      <i>{date + '\n'}</i>
+      <i>{date}</i>
+      <br />
       {props.children}
       <br />
       {links.map((info, index) => {
@@ -35,6 +36,7 @@ const Description = props => {
       <br />
       <Heading>{title.toLowerCase()}</Heading>
       <i>{date}</i>
+      <br />
       {props.children}
     </>
   )

@@ -125,7 +125,6 @@ const About = () => (
                 ['Design Docs', '/pdfs/tp-proposal.pdf', 'avi_w_tp_proposal'],
               ]}
             >
-              <br />
               A geographic game programmed with Python for 15-112: Fundamentals
               of Programming and CS at CMU. I filtered through giant piles of
               OpenStreetMap data to make this game.
@@ -142,7 +141,6 @@ const About = () => (
                 ],
               ]}
             >
-              <br />
               A Monte Carlo simulation mimicking the random growth of tangly
               polymer molecules.
               <br />
@@ -156,7 +154,6 @@ const About = () => (
                 ['GitHub', 'https://github.com/avi9664/doodle-month'],
               ]}
             >
-              <br />
               A website that generates a list of word or colour prompts,
               Inktober-style, for artists who want a month-long creative
               challenge.
@@ -170,7 +167,6 @@ const About = () => (
                 ['Design Docs', '/pdfs/99360 doc.pdf', 'avi_w_e_textiles_doc'],
               ]}
             >
-              <br />
               A fun little experiment with embroidery, conductive materials, and
               circuits as a part of the IDeATe class 99-360: E-Textiles with Lea
               Albaugh. I made two different stretch sensors using smocking, a
@@ -202,17 +198,17 @@ const About = () => (
             scripts that are performed as part of Scenefest, a compilation of
             short, original plays written by students. Here’s the scenes I’ve
             written so far:
-            <Description title="Paw Paw">
+            <Description title="Paw Paw" date='February 2022'>
               A lesbian accidentally schedules a lunch with her Chinese grandma
               at the same time as a date with her girlfriend, and she makes a
               surprising discovery.
             </Description>
-            <Description title="Extra Turkey">
+            <Description title="Extra Turkey" date='August 2022'>
               Two roommates panic when a dead body appears in their freezer,
               mistaken for a very large bag of turkey. A collaboration with Esha
               Gupta.
             </Description>
-            <Description title="Last Burn">
+            <Description title="Last Burn" date='October 2022'>
               In their very last moment together, two sworn archenemies, a
               prisoner and a general, muse about the past.
             </Description>
