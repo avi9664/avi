@@ -62,7 +62,7 @@ const About = () => (
             }}
             src="/images/pfp.png"
           />
-          <Heading variant="ultratitle">airport skeleton</Heading>
+          <Heading variant="ultratitle">avi wong</Heading>
           <Text sx={{ mt: 1 }}>
             interdisciplinary student
             <br /> sf → pittsburgh | he/they
