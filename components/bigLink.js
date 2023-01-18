@@ -4,7 +4,7 @@ const BigLink = props => {
     const { text, loc } = props;
   return (
     <>
-      <Link href={loc}>
+      <Link href={loc} variant='big'>
         <Heading sx={{
             color: 'background',
             fontSize: [6, 6, 7],

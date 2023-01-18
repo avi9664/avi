@@ -101,14 +101,20 @@ const About = () => (
         ></Box>
         <HalfText heading="sustainably seeking.">
           <Text>
-            I’m currently pursuing a degree in Materials Science and Engineering
-            with an additional major in Engineering and Public Policy at
-            Carnegie Mellon University. I want to develop sustainable materials
-            that can replace the plastic, concrete, and heavy metals we use
-            today, and I’m interested in exploring nature for inspiration. But
-            I’m also interested in the social, cultural, and economic dynamics
-            in our world that lead us to use the materials we see everyday, and
-            how we can change them through public policy.
+            I’m currently pursuing a undergraduate degree in{' '}
+            <Link href="https://mse.engineering.cmu.edu/" variant="primary">
+              Materials Science and Engineering
+            </Link>{' '}
+            with an additional major in{' '}
+            <Link href="https://www.cmu.edu/epp/" variant="primary">
+              Engineering and Public Policy
+            </Link>{' '}
+            at Carnegie Mellon University. I want to develop sustainable
+            materials that can replace the plastic, concrete, and heavy metals
+            we use today, and I’m interested in exploring nature for
+            inspiration. But I’m also interested in the social, cultural, and
+            economic dynamics in our world that lead us to use the materials we
+            see everyday, and how we can change them through public policy.
             <br />
             <br />I also do a bit of programming both to solve engineering
             problems and just for fun: running simulations, building websites,
@@ -193,22 +199,28 @@ const About = () => (
             Born and raised in the Bay Area, I grew up on a blend of kung fu TV
             dramas, historical & fantasy novels, high doses of cosmic gay
             radiation, and crispy Hong Kong egg waffles. I started writing short
-            stories more often in high school, and now, I’m part of New Works
-            Coffeehouse, a side troupe of my college’s student theatre! I write
-            scripts that are performed as part of Scenefest, a compilation of
-            short, original plays written by students. Here’s the scenes I’ve
-            written so far:
-            <Description title="Paw Paw" date='February 2022'>
+            stories more often in high school, and now, I’m part of{' '}
+            <Link
+              href="https://www.instagram.com/newworkscoffee/"
+              variant="primary"
+            >
+              New Works Coffeehouse
+            </Link>
+            , a side troupe of my college’s student theatre! I write scripts
+            that are performed as part of Scenefest, a compilation of short,
+            original plays written by students. Here’s the scenes I’ve written
+            so far:
+            <Description title="Paw Paw" date="February 2022">
               A lesbian accidentally schedules a lunch with her Chinese grandma
               at the same time as a date with her girlfriend, and she makes a
               surprising discovery.
             </Description>
-            <Description title="Extra Turkey" date='August 2022'>
+            <Description title="Extra Turkey" date="August 2022">
               Two roommates panic when a dead body appears in their freezer,
               mistaken for a very large bag of turkey. A collaboration with Esha
               Gupta.
             </Description>
-            <Description title="Last Burn" date='October 2022'>
+            <Description title="Last Burn" date="October 2022">
               In their very last moment together, two sworn archenemies, a
               prisoner and a general, muse about the past.
             </Description>
@@ -232,25 +244,28 @@ const About = () => (
         {/* <HalfMoon src="/images/piano.svg" align="left" /> */}
         <HalfText align="left" heading="happily hobbying.">
           <Text>
-            Besides writing and sciencing, I’m a driver for Spirit Racing
-            Systems, a buggy team in my university. That basically means that
-            every weekend at 8am, you can find me zooming down an empty street
-            at 30 miles an hour in a human-powered, human-built car.
+            Besides writing and sciencing, I’m a driver for{' '}
+            <Link href="https://www.spiritracingsystems.com/" variant="primary">
+            Spirit Racing Systems
+            </Link>, a buggy team in my university. That basically
+            means that every weekend at 8am, you can find me zooming down an
+            empty street at 30 mph in a human-powered, human-built car.
             <br />
-            <br />I am also involved with CMU’s student-run theatre troupe,
-            Scotch’n’Soda Theatre; I played the synth for their October 2021
+            <br />I am also involved with CMU’s student-run theatre troupe,{' '}
+            <Link href="https://www.snstheatre.org/" variant="primary">
+            Scotch'n'Soda Theatre
+            </Link>; I played the synth for their October 2021
             production of <i>Rocky Horror</i>, was an assistant sound engineer
             for their February 2021 production of Sarah Ruhl's <i>Eurydice,</i>{' '}
-            and am currently their props tech area co-head.
+            and am currently their props tech area head.
             <br />
             <br />
             Outside of all these commitments, I hike, run, play the piano,
-            listen to music by{' '}
+            head-bang to music by{' '}
             {random([
               'Unknown Mortal Orchestra',
               'Khruangbin',
               'Sea Powers',
-              'My Analog Journal',
               'Mdou Moctar',
               'Ahmed Malek',
               'Flying Lotus',
@@ -261,14 +276,12 @@ const About = () => (
               'Daemonia Nymphe',
               'SE SO NEON',
             ])}
-            , feed my addiction to black tea, read sometimes, and play video
-            games.
-            <br />
-            <br />I love exploring new places; brainstorming new stories;
-            dumping uncooked writing ideas into my Google Docs; reading science
-            articles on Phys.org; doing funny shenanigans with friends; solving
-            murder cases in <i>Disco Elysium</i>; head-banging to all kinds of
-            rock music; and escaping out of hell in <i>Hades</i>.
+            , feed my tea addiction, doodle, read books sometimes, and play video
+            games like <i>{random([
+              'Hades',
+              'Disco Elysium',
+              'Baba Is You',
+            ])}</i>.
           </Text>
         </HalfText>
         <Box
@@ -283,8 +296,12 @@ const About = () => (
         >
           <hr style={{ width: '50%', marginBottom: '40px' }} />
           <Text>
-            Fonts are Cabinet Grotesk (heading) & Lora (body). Icons from
-            icons8.com. Designed by me on Figma & Next.js in 2021.
+            Fonts are Cabinet Grotesk (heading) & Lora (body). Graphics were drawn by me.
+            Designed by me on Figma & Next.js in 2021-2022, using <Link href="https://lachlanjc.com/" variant="primary">
+            @lachlanjc
+            </Link>'s <Link href="https://github.com/lachlanjc/next-theme-starter" variant="primary">
+            next-theme-starter
+            </Link>.
           </Text>
         </Box>
       </Grid>

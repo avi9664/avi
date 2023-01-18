@@ -13,18 +13,17 @@ const Description = props => {
       {links.map((info, index) => {
         let text = info[0]
         let href = info[1]
-        let download
-        console.log(info.length)
+        let download;
         if (info.length === 3) {
           let download = info[2]
         }
         let link =
           download != null ? (
-            <Link href={href} download={download}>
+            <Link href={href} download={download} variant='primary'>
               {text}
             </Link>
           ) : (
-            <Link href={href}>{text}</Link>
+            <Link href={href} variant='primary'>{text}</Link>
           )
         let lastIndex = links.length
         return index == lastIndex - 1 ? link : <>{link}, </>
