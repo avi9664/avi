@@ -266,6 +266,8 @@ const About = () => (
               'Unknown Mortal Orchestra',
               'Khruangbin',
               'Sea Powers',
+              'Radiohead',
+              'Portishead',
               'Mdou Moctar',
               'Ahmed Malek',
               'Flying Lotus',
