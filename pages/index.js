@@ -225,7 +225,7 @@ const About = () => (
               prisoner and a general, muse about the past.
             </Description>
             <Description title="Death Cab" date="January 2022">
-              A recently deceased, slightly unhinged old man has a last
+              A recently deceased, slightly unhinged old man has a final
               conversation with the cab driver taking him to be reincarnated.
             </Description>
           </Text>
@@ -262,7 +262,7 @@ const About = () => (
             </Link>
             ; I played the synth for their October 2021 production of{' '}
             <i>Rocky Horror</i>, was an assistant sound engineer for their
-            February 2021 production of Sarah Ruhl's <i>Eurydice,</i> was a
+            February 2021 production of Sarah Ruhl's <i>Eurydice,</i> was the
             technical director for New Works's February 2023 Scenefest, and am
             currently their props tech area head.
             <br />
