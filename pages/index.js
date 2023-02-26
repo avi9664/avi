@@ -224,6 +224,10 @@ const About = () => (
               In their very last moment together, two sworn archenemies, a
               prisoner and a general, muse about the past.
             </Description>
+            <Description title="Death Cab" date="January 2022">
+              A recently deceased, slightly unhinged old man has a last
+              conversation with the cab driver taking him to be reincarnated.
+            </Description>
           </Text>
         </HalfText>
         {/* <HalfMoon src="/images/quill.svg" align="right" /> */}
@@ -246,18 +250,21 @@ const About = () => (
           <Text>
             Besides writing and sciencing, I’m a driver for{' '}
             <Link href="https://www.spiritracingsystems.com/" variant="primary">
-            Spirit Racing Systems
-            </Link>, a buggy team in my university. That basically
-            means that every weekend at 8am, you can find me zooming down an
-            empty street at 30 mph in a human-powered, human-built car.
+              Spirit Racing Systems
+            </Link>
+            , a buggy team in my university. That basically means that every
+            weekend at 8am, you can find me zooming down an empty street at 30
+            mph in a human-powered, human-built car.
             <br />
             <br />I am also involved with CMU’s student-run theatre troupe,{' '}
             <Link href="https://www.snstheatre.org/" variant="primary">
-            Scotch'n'Soda Theatre
-            </Link>; I played the synth for their October 2021
-            production of <i>Rocky Horror</i>, was an assistant sound engineer
-            for their February 2021 production of Sarah Ruhl's <i>Eurydice,</i>{' '}
-            and am currently their props tech area head.
+              Scotch'n'Soda Theatre
+            </Link>
+            ; I played the synth for their October 2021 production of{' '}
+            <i>Rocky Horror</i>, was an assistant sound engineer for their
+            February 2021 production of Sarah Ruhl's <i>Eurydice,</i> was a
+            technical director for New Works's February 2023 Scenefest, and am
+            currently their props tech area head.
             <br />
             <br />
             Outside of all these commitments, I hike, run, play the piano,
@@ -278,12 +285,9 @@ const About = () => (
               'Daemonia Nymphe',
               'SE SO NEON',
             ])}
-            , feed my tea addiction, doodle, read books sometimes, and play video
-            games like <i>{random([
-              'Hades',
-              'Disco Elysium',
-              'Baba Is You',
-            ])}</i>.
+            , feed my tea addiction, doodle, read books sometimes, and play
+            video games like{' '}
+            <i>{random(['Hades', 'Disco Elysium', 'Baba Is You'])}</i>.
           </Text>
         </HalfText>
         <Box
@@ -298,12 +302,19 @@ const About = () => (
         >
           <hr style={{ width: '50%', marginBottom: '40px' }} />
           <Text>
-            Fonts are Cabinet Grotesk (heading) & Lora (body). Graphics were drawn by me.
-            Designed by me on Figma & Next.js in 2021-2022, using <Link href="https://lachlanjc.com/" variant="primary">
-            @lachlanjc
-            </Link>'s <Link href="https://github.com/lachlanjc/next-theme-starter" variant="primary">
-            next-theme-starter
-            </Link>.
+            Fonts are Cabinet Grotesk (heading) & Lora (body). Graphics were
+            drawn by me. Designed by me on Figma & Next.js in 2021-2022, using{' '}
+            <Link href="https://lachlanjc.com/" variant="primary">
+              @lachlanjc
+            </Link>
+            's{' '}
+            <Link
+              href="https://github.com/lachlanjc/next-theme-starter"
+              variant="primary"
+            >
+              next-theme-starter
+            </Link>
+            .
           </Text>
         </Box>
       </Grid>
